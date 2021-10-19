@@ -126,3 +126,67 @@ padding-right: 10px;
 .ui.header{
   margin: 2px;
 }
+
+#projects-container{
+  background-color: #7180A6;
+  margin-left: 0!important;
+  margin-right: 0!important;
+}
+
+#project-header{
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  margin: 1rem;
+}
+
+#button-container{
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+#button-container button{
+  margin: 2px;
+}
+
+#project-container{
+  box-shadow: none;
+  padding: 0!important;
+  margin: 0!important;
+  margin-top: 1rem!important;
+}
+
+.ui.card.project-card{
+  box-shadow: none;
+}
+
+.ui.card.project-card>.content{
+  border: none;
+  padding: 10px;
+  padding-left: 0;
+}
+
+.ui.container .single-post-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0!important;
+  padding: 0;
+  margin-top: 1rem;
+  border-top: 1px solid grey;
+  padding-top: 10px;
+}
+
+.ui.container.profile-picture-container{
+  width: 40%;
+  padding: 0;
+  margin: 0!important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#float-right {
+  align-self: flex-end;
+}

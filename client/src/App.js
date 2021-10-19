@@ -7,6 +7,7 @@ import Footer from './Components/Footer';
 
 //Pages
 import HomePage from './Pages/HomePage';
+import ProjectPage from './Pages/ProjectsPage';
 
 //App Structure
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <main>
           <Navbar />
           <Switch>
+            <Route path='/projects' component={ProjectPage}/>
             <Route path='*' component={HomePage}/>
           </Switch>
           <Footer />

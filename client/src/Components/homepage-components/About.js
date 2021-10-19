@@ -18,11 +18,11 @@ function About() {
             <div className="image-box">
                 <Image className="cover-image" src={coverImage}/>
             </div>
-            <div className="my-2">
+            <Container textAlign='left'>
                 <p>
                 I am a full Stack Web Developer with a background in the humanities and a unique perspective on tailoring the MERN stack to support creative and easy to use websites. I earned my certificate in Full Stack Web Development from the University of Texas Coding Boot Camp this fall. I am focussed on structuring back-end databases to smoothly serve end-user interactions, and designing mobile-first intuitive front-ends. A creative problem-solver with a conceptual orientation.
                 </p>
-            </div>
+              </Container>
           </Container>
     )
   }
