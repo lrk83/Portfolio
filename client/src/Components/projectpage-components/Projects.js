@@ -39,6 +39,66 @@ const data= [
             demo: "https://lrk83.github.io/run-buddy/",
             odd: false
         }
+    ]},
+    {projects:[
+        {
+            name: 'Employee Tracker',
+            description: "This is a command line application that allows buisness owners to view and manage the departments, roles, and employees in their company. The application will present you any data in formatted tables, and will store data you enter in an SQL database. It is written using Javascript, Node.js, SQL, MySQL, and the Inquirer package in Node",
+            image: 'https://github.com/lrk83/Employee-Tracker/raw/main/screenshots/Screen%20Shot%202021-08-01%20at%209.34.47%20PM.png',
+            technologies:["js", "node js"],
+            github: "https://github.com/lrk83/Employee-Tracker",
+            demo: "https://www.youtube.com/watch?v=jnOR-ecExaM",
+            odd: true
+        },
+        {
+            name: 'E-Commerce Back End',
+            description: "This is a command line application that allows managers to interact with an SQL databse of products, tags, and categories through CRUD API routes. It is written using Javascript, Node.js, SQL, MySQL, Sequelize, and the Dotenv package.",
+            image: 'https://camo.githubusercontent.com/9df6d8eaecc4b2b44114796fd9b70f682db81679d99396289b04976df744f11d/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f31757074554178435766512f302e6a7067',
+            technologies:["js","node js"],
+            github: "https://github.com/lrk83/E-Commerce-Back-End",
+            demo: "https://www.youtube.com/watch?v=1uptUAxCWfQ",
+            odd: false
+        }
+    ]},
+    {projects:[
+        {
+            name: 'Gopher 2.0',
+            description: "Gopher 2.0 is an event planning website and social media application. It prvoides a place for Austinites to plan and share local events, search for upcoming events, and comment on others' posts. It is a full stack application written using Javascript, Node.js, Express, Dcrypt, Dotenv, Handlebars, and Bulma",
+            image: 'https://user-images.githubusercontent.com/83102464/130361461-04becfc4-2233-4c3f-bf90-d99a65542ab5.png',
+            technologies:["js","node js"],
+            github: "https://github.com/lrk83/Gopher-2.0",
+            demo: "https://thawing-fortress-75852.herokuapp.com/",
+            odd: true
+        },
+        {
+            name: 'The Tech Blog',
+            description: "This is a CMS-style blog site for tech writers to publish their thoughts and opinions. The site allows visitors to view existing blog posts, or log in to make their own posts and comment on others'. It is a full stack application written using Javascript, Node.js, SQL, Sequelize, Handlebars, Express, Bcrypt, and Dotenv",
+            image: 'https://github.com/lrk83/Tech-Blog/raw/main/screenshots/Screen%20Shot%202021-08-16%20at%203.42.21%20PM.png',
+            technologies:["js", "node js"],
+            github: "https://github.com/lrk83/Tech-Blog",
+            demo: "https://lrk83-tech-blog.herokuapp.com/",
+            odd: false
+        }
+    ]},
+    {projects:[
+        {
+            name: 'The Backbeat',
+            description: "The backbeat is a place for home producers to share and collect music production knowledge. It allows producers to post all their favorite music production resources from around the internet in one place, and pick up new resources from others. This website includes JWT token Authentication. It is a MERN stack application that I wrote from scratch entirely myself using React, Graphql, Javascript, Node.js, Express, MongoDB, Mongoose, React Router, and Semantic UI.",
+            image: 'https://wallpaperbat.com/img/10293-jeremy-sutton-studios-art-of-jazz-2018-jeremy-sutton-studios.jpg',
+            technologies:["js","node js","react"],
+            github: "https://github.com/lrk83/the-backbeat",
+            demo: "https://the-backbeat.herokuapp.com/",
+            odd: true
+        },
+        {
+            name: 'Book Search Engine',
+            description: "This is a website designed for avid readers to search for books, and a compile a list of books to read. Users can search books from the Google Books API and save them to their account. Later, they can log back in and delete books they have checked off the list! The wesbite includes JWT token Authentication. It is a MERN stack application written using React, Graphql, Javascript, Node.js, Express, MongoDB, Mongoose, and React Router.",
+            image: 'https://github.com/lrk83/solid-broccoli/raw/main/Screenshots/Screen%20Shot%202021-10-03%20at%2010.56.24%20AM.png',
+            technologies:["js", "node js","react"],
+            github: "https://github.com/lrk83/solid-broccoli",
+            demo: "https://lrk83-solid-broccoli.herokuapp.com/",
+            odd: false
+        }
     ]}
 ]
 
