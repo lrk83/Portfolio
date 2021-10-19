@@ -6,26 +6,26 @@ import Projects from '../Components/projectpage-components/Projects';
 
 const ProjectsPage = () => {
 
-    const categories = ["Frontend","Backend","Fullstack","MERN Stack"]
+    const categories = ["MERN Stack", "Fullstack", "Frontend","Backend"]
     const [index, setIndex]=useState(0);
 
     const handleClick = (event) => {
        event.preventDefault();
 
        if (event.target.name==="front"){
-           setIndex(0);
+           setIndex(2);
        }
 
        if (event.target.name==="back"){
-        setIndex(1);
+        setIndex(3);
         }
 
         if (event.target.name==="full"){
-            setIndex(2);
+            setIndex(1);
         }
 
         if (event.target.name==="MERN"){
-            setIndex(3);
+            setIndex(0);
         }
     }
 
@@ -40,10 +40,10 @@ const ProjectsPage = () => {
             <Header as="h1" id="project-header">{categories[index]} Projects</Header>
             <Container className="shadow-container">
             <Container id="button-container">
+                <Button name="MERN" onClick={handleClick} size="tiny"> MERN Stack </Button>
+                <Button name="full" onClick={handleClick} size="tiny"> Fullstack </Button>
                 <Button name="front" onClick={handleClick} size="tiny"> Frontend </Button>
                 <Button name="back" onClick={handleClick} size="tiny"> Backend </Button>
-                <Button name="full" onClick={handleClick} size="tiny"> Fullstack </Button>
-                <Button name="MERN" onClick={handleClick} size="tiny"> MERN stack </Button>
             </Container>
             <Container className="shadow-container" id="project-container" data-aos="fade-in" data-aos-delay="100" data-aos-duration="1500" >
                 <Projects category={index}></Projects>

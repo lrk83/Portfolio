@@ -179,14 +179,34 @@ padding-right: 10px;
 }
 
 .ui.container.profile-picture-container{
-  width: 40%;
+  height:inherit;
   padding: 0;
   margin: 0!important;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  padding: 2rem;
+}
+
+.ui.container.profile-picture-container>img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 #float-right {
   align-self: flex-end;
+}
+
+#run{
+  object-position: right;
+}
+
+#weather{
+  object-position: left;
+}
+
+#tracker{
+  object-position: left;
+}
+
+#booksearch{
+  object-position: left;
 }
