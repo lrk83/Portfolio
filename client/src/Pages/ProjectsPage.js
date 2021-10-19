@@ -45,7 +45,7 @@ const ProjectsPage = () => {
                 <Button name="front" onClick={handleClick} size="tiny"> Frontend </Button>
                 <Button name="back" onClick={handleClick} size="tiny"> Backend </Button>
             </Container>
-            <Container className="shadow-container" id="project-container" data-aos="fade-in" data-aos-delay="100" data-aos-duration="1500" >
+            <Container className="shadow-container" id="project-container">
                 <Projects category={index}></Projects>
             </Container>
             </Container>

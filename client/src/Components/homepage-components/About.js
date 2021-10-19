@@ -13,8 +13,6 @@ function About() {
   });
 
     return (<Container className="about-container">
-            <Header as="h1">Lukas Keel</Header>
-            <Header as="h3"> Full Stack Web Developer </Header>
             <div className="image-box">
                 <Image className="cover-image" src={coverImage}/>
             </div>
