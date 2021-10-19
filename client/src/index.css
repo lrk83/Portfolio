@@ -11,3 +11,118 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.big-nav{
+  display: flex;
+  align-items: center;
+  background-color: rgb(53,56,57);
+}
+
+.nav-title{
+  font-size: 1.5rem;
+  margin-bottom: 0;
+  margin-top: 1rem!;
+  font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+}
+
+.ui.secondary.menu .item{
+  color: rgb(211,211,211);
+  padding: 2px 2px;
+}
+
+.ui.secondary.menu a.item:hover{
+  color: white;
+}
+
+.ui.secondary.menu .active.item{
+  color: white;
+}
+
+.ui.secondary.menu .active.item:hover{
+  color: white;
+}
+
+#nav-title{
+  color: white;
+  padding: 10px;
+}
+
+.ui.secondary.menu{
+  width: 100%;
+}
+
+#footer{
+  margin: 0!important;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(53,56,57);
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+#footer .text{
+color: #fff;
+}
+
+#footer .icons >i {
+padding-right: 10px;
+}
+
+#home-page-hero{
+  background-image: url(https://paceprints.com/sites/default/files/styles/ps_1536_fit/public/works/10-452-057_FireworksOnShinamoRiver.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+
+#hero-header{
+  width: 100%;
+  text-align: center;
+  padding: 5rem;
+  color: #fff;
+  text-shadow: 2px black;
+  font-size: 5rem;
+  text-decoration: underline;
+}
+
+.big-container{
+  padding: 1rem;
+}
+
+.ui.container.shadow-container{
+  border: 1px rgba(0,0,0,.2);
+  border-radius: 5px;
+  box-shadow: 0 1px 1px 0 rgb(0 0 0 / 6%), 0 2px 5px 0 rgb(0 0 0 / 20%);
+  background-color: #fff;
+  padding: 1rem;
+  margin-left:0!important;
+  margin-right: 0!important;
+  z-index: 2;
+  margin-bottom: 1rem;
+}
+
+#no-shadow{
+  box-shadow: none;
+}
+
+.ui.container.about-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cover-image{
+  align-self: center;
+  max-height: 200px;
+  border-radius: 10px;
+  margin: 10px;
+  margin-bottom: 2rem;
+}
+
+.ui.header{
+  margin: 2px;
+}
