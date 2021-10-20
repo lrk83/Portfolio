@@ -14,10 +14,8 @@ const HomePage = () => {
     });
 
     return ( <>
-        <Hero></Hero>
-        <Container className="big-container" data-aos="fade-in" data-aos-delay="100" data-aos-duration="1500" >
-            
-            <Container className="shadow-container" id="no-shadow">
+        <Container className="big-container" >
+            <Container className="shadow-container" id="no-shadow" data-aos="fade-in" data-aos-delay="0" data-aos-duration="1000" >
                 <About></About>
             </Container>
         </Container>

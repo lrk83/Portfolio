@@ -12,8 +12,8 @@ const HomePageHero = () => {
     });
 
     return (
-        <Container className="big-container" id="home-page-hero" data-aos="fade-in" data-aos-delay="100" data-aos-duration="1500">
-            <Header as="h1" id="hero-header">About Me</Header>
+        <Container className="big-container" id="home-page-hero">
+            <Header as="h1" id="hero-header"  data-aos="fade-in" data-aos-delay="100" data-aos-duration="1000">About Me</Header>
         </Container>
     )
 }

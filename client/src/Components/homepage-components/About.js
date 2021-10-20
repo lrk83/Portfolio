@@ -12,7 +12,9 @@ function About() {
     });
   });
 
-    return (<Container className="about-container">
+    return (
+          <Container className="about-container">
+            <Header as="h1">About me</Header>
             <div className="image-box">
                 <Image className="cover-image" src={coverImage}/>
             </div>

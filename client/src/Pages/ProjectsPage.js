@@ -36,9 +36,9 @@ const ProjectsPage = () => {
     });
 
     return ( <>
-        <Container className="big-container" id="projects-container" data-aos="fade-in" data-aos-delay="100" data-aos-duration="1500" >
+        <Container className="big-container" id="projects-container">
+            <Container className="shadow-container" data-aos="fade-in" data-aos-delay="100" data-aos-duration="1000" >
             <Header as="h1" id="project-header">{categories[index]} Projects</Header>
-            <Container className="shadow-container">
             <Container id="button-container">
                 <Button name="MERN" onClick={handleClick} size="tiny"> MERN Stack </Button>
                 <Button name="full" onClick={handleClick} size="tiny"> Fullstack </Button>
